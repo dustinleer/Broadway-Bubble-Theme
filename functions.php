@@ -294,17 +294,17 @@ register_sidebar( array(
 //* Custom Footer
 
 //* Remove the site footer
-remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
+// remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
+// remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
 remove_action( 'genesis_footer', 'genesis_do_footer' );
-remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
 
 //* Customize the site footer
 add_action( 'genesis_footer', 'broadwaybubble_custom_footer', 5 );
 function broadwaybubble_custom_footer() { ?>
 
- 	<div class="site-footer">
+ 	<div class="custom-copyright">
 		<div class="wrap">
-			<p>&copy; 2017 Broadway Bubble</p>
+			<p>Copyright &copy; 2017 Broadway Bubble</p>
 		</div>
 	</div>
 
