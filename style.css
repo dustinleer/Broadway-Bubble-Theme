@@ -11,6 +11,12 @@
  Text Domain: milan
 */
 
+/*Primary and Secodary Theme Colors*/
+/*
+Purple = #170029
+Green = #6fb500
+*/
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -466,7 +472,7 @@ input[type="reset"],
 input[type="submit"] {
 	border: 3px solid #000;
 	border-radius: 0;
-	background: transparent;
+	background: #6fb500;
 	box-shadow: none;
 	color: #000;
 	font-size: 21px;
@@ -479,7 +485,7 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	background: #000;
+	background: #170029;
 	color: #fff;
 }
 
@@ -561,8 +567,8 @@ table {
 	/* Tables within `.footer-widgets` areas */
 
 	.footer-widgets .calendar_wrap caption {
-		background: #222;
-		border-color: #444;
+		background: #33253e;
+		border-color: #554165;
 		color: #fff;
 	}
 
@@ -582,7 +588,7 @@ table {
 /* ## Links ---------------------*/
 
 a {
-	color: #000;
+	color: #170029;
 	text-decoration: none;
 	}
 
@@ -645,7 +651,7 @@ a:hover {
 .widget a:hover,
 .site-footer p a:hover,
 .breadcrumb a:hover {
-	border-bottom-color: #000;
+	border-bottom-color: #170029;
 }
 
 .featured-primary .entry-excerpt a:hover {
@@ -1019,7 +1025,7 @@ a:hover {
 /* Display outline on focus */
 :focus {
 	color: #333;
-	outline: #ccc solid 1px;
+	outline: #170029 solid 1px;
 }
 
 /*--------------------------------------------------------------
@@ -1142,7 +1148,7 @@ a:hover {
 
 	.widget-title,
 	.widgettitle {
-		background: #222;
+		background: #170029;
 		color: #fff;
 		display: inline-block;
 		font-size: 18px;
@@ -1305,7 +1311,7 @@ a:hover {
 	.search-form input[type=submit] {
 		border: 1px solid #fff;
 		border-width: 0 0 0 1px;
-		color: #616161;
+		color: #170029;
 		height: 56px;
 		padding: 0;
 		position: absolute;
@@ -1319,13 +1325,13 @@ a:hover {
 	.footer-widgets .search-form input[type=submit],
 	.footer-widgets form:not(.search-form) input[type=text],
 	.footer-widgets form:not(.search-form) input[type=email] {
-		color: #fff;
+		color: #6fb500;
 	}
 
 .footer-widgets .search-form,
 .footer-widgets form:not(.search-form) input[type=text],
 .footer-widgets form:not(.search-form) input[type=email] {
-	background: #222;
+	background: #33253e;
 }
 
 .footer-widgets .search-form input[type=submit] {
@@ -1936,6 +1942,7 @@ object {
 			font-weight: 100;
 			letter-spacing: -17px;
 			line-height: 1;
+			color: #170029;
 		}
 
 	/* Main Nav Toggle Button */
@@ -2116,6 +2123,10 @@ object {
 			margin: -12px 0 0;
 			padding: 0 36px;
 			text-align: center;
+		}
+
+		h1.entry-title {
+			color: #170029;
 		}
 
 /*--------------------------------------------------------------
@@ -2582,7 +2593,7 @@ body.page .entry-header {
 
 /* Widget Areas Parent DIV */
 .footer-widgets {
-	background: #000;
+	background: #170029;
 	color: #888;
 	padding: 5% 0 1.5%;
 	text-align: center;
@@ -2628,6 +2639,8 @@ body.page .entry-header {
 .social-footer {
 		margin-top: -32px;
 		padding-bottom: 41px;
+		position: relative;
+		z-index: 9;
 }
 
 /*--------------------------------------------------------------
