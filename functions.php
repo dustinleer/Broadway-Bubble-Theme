@@ -107,7 +107,10 @@ add_image_size( 'square', 350, 350, true );
 //* Add menu toggle markup
 add_action( 'genesis_header', 'milan_menu_toggle' );
 function milan_menu_toggle() { ?>
-	<button id="menu-toggle" class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span class="screen-reader-text"><?php esc_html_e( 'Primary Navigation Menu', 'milan' ); ?></span></button>
+	<button id="menu-toggle" class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+		<span class="screen-reader-text"><?php esc_html_e( 'Primary Navigation Menu', 'milan' ); ?></span>
+		<span class="menu-subtext"><?php esc_html_e( 'Menu' ); ?></span>
+	</button>
 <?php }
 
 //* Add slide out markup

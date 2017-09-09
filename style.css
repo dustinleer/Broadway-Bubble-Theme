@@ -2031,6 +2031,15 @@ object {
 		width: 35px;
 	}
 
+	.menu-subtext {
+		width: 100%;
+		font-size: .88em;
+		margin-top: 2.25em;
+		display: inline-block;
+		color: #202b77;
+		font-family: 'Roboto', sans-serif;
+	}
+
 /*--------------------------------------------------------------
 ## Featured
 --------------------------------------------------------------*/
