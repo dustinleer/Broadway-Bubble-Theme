@@ -1247,7 +1247,7 @@ a:hover {
 		}
 
 		.widget-wrap > ul > li > a:hover:after {
-			color: #000;
+			color: #202B77;
 		}
 
 		.widget.widget_categories > ul > li > a,
@@ -2607,7 +2607,7 @@ body.page .entry-header {
 }
 
 .entry-content a {
-	color: #000;
+	color: #32b559;
 	text-decoration: none;
 }
 
@@ -2616,7 +2616,7 @@ body.page .entry-header {
 }
 
 .single .entry-footer {
-	border-top: 2px solid #000;
+	border-top: 2px solid #202c77;
 }
 
 .tags-links {
@@ -2671,11 +2671,16 @@ body.page .entry-header {
 }
 
 .post-navigation .nav-links a {
-	color: #000;
+	color: #202B77;
 	font-size: 21px;
 	font-style: italic;
 	line-height: 1.57142857143; /* 33px */
 	text-decoration: none;
+	transition: all 0.15s ease-in-out 0s;
+}
+
+.post-navigation .nav-links a:hover {
+	color: #32b559;
 }
 
 /*--------------------------------------------------------------
