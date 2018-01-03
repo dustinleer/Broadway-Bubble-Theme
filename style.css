@@ -701,7 +701,6 @@ a:hover {
 	transition: .5s all;
 	visibility: hidden;
 	width: 350px;
-	box-shadow: inset 4px 0px 4px 0px rgba(142, 142, 142, 0.25);
 }
 
 .menu-toggled .slide-menu {
@@ -739,7 +738,7 @@ a:hover {
 
 				.main-navigation a,
 				.menu-back {
-					color: #000;
+					color: #202c77;
 					display: inline-block;
 					font-size: 24px;
 					font-style: italic;
@@ -1911,7 +1910,7 @@ object {
 .site-container {
 	background: #fff;
 	margin: 0 auto;
-	max-width: 1400px;
+	max-width: 100%;
 	position: relative;
 }
 
@@ -1925,6 +1924,8 @@ object {
 	position: relative;
 	transition: .5s left;
 	z-index: 2;
+	display: block;
+	margin: 0 auto;
 }
 
 .site-inner {
@@ -1971,6 +1972,7 @@ object {
 	padding: 119px 0 51px;
 	position: relative;
 	text-align: center;
+	max-width: 100%;
 }
 
 .header-image .site-header {
@@ -2007,7 +2009,7 @@ object {
 
 		.title-area:after,
 		.site-footer:before {
-			content: "~~~~~~";
+			/*content: "~~~~~~";*/
 			font-size: 48px;
 			font-weight: 100;
 			letter-spacing: -17px;
@@ -2057,6 +2059,7 @@ object {
 .featured-primary {
 	background: #ccc;
 	position: relative;
+	margin: 2.25em 0;
 }
 
 	.featured-primary .entry {
@@ -2685,7 +2688,7 @@ body.page .entry-header {
 	color: #888;
 	padding: 5% 0 1.5%;
 	text-align: center;
-	width: 100%;
+	max-width: 100%;
 }
 
 	/* Each widget area */
@@ -2705,6 +2708,7 @@ body.page .entry-header {
 	background: #1c2667;
 	text-align: center;
 	color: #fff;
+	max-width: 100%;
 }
 
 	.site-footer:before {
